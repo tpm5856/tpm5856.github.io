@@ -6,22 +6,24 @@
 }
 
 .header {
-  position: fixed;
-  align-items: center;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 16px 70px;
+  width: 94%;
+  max-width: 1450px;
+  margin: 24px auto;
+  padding: 12px 28px;
+
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1px;
 
-  /*CSS Glass software site */
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
 
-  background: rgba(189, 189, 189, 0.14);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(10.3px);
-  -webkit-backdrop-filter: blur(10.3px);
-  border: 1px solid rgba(189, 189, 189, 0.22);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 60px;
+
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
 }
 
 .logo {
